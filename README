@@ -1,0 +1,26 @@
+Linear least-squares data fitting without calculus
+
+It's hard to overstate the importance of linear least-squares data fitting, one
+of the most widely-used computational methods.  Linear least-squares data
+fitting also exhibits many remarkable statistical properties that you can learn
+about in stats courses.  Applications range from astronomy to zymology and
+everything in between including finance, health care, engineering, advertising,
+logistics, and many more.
+
+This note outlines ordinary linear least-squares data fitting without calculus
+or statistics, using only the tools of college algebra. I wrote this for my
+college algebra class at Garrett College in the Appalachian mountains of
+western Maryland. It's intended to supplement standard college algebra courses.
+
+The fact that such a useful method can be developed in a simple way illustrates
+the modern relevance and explanatory power of basic college algebra.
+
+
+The main document is a PDF called ols.pdf. The LaTeX source and required images
+are also included, along with an R script 'ols.r' that makes supplemental
+images. You can build the document from scratch using the included Makefile by
+typing at a command line:
+
+make
+
+
